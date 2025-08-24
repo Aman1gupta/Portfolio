@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman Gupta | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Aman Gupta</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Aman Gupta 👋</span></h1>
+        <p>Full-Stack Developer passionate about building scalable MERN applications, optimizing databases, and solving real-world problems.</p>
+        <div class="btn-group">
+          <a href="Aman_Gupta_Resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Aman1gupta" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/aman-gupta-766531257" target="_blank">LinkedIn</a>
+          <a href="mailto:ag9451guptaaman@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <!-- Profile Photo -->
+      <div class="hero-photo">
+        <img src="ag.jpg" alt="Aman_Gupta">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Aspiring Computer Science professional with a strong foundation in full-stack development and a keen interest in solving real-world problems through innovative tech solutions. Skilled in MERN Stack, SQL, and experienced in collaborative projects like the Smart India Hackathon, I am passionate about building scalable, user-friendly applications that make an impact.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science (AIML)</strong>, NIET, Greater Noida (2022–2026) – CGPA: 8.04/10</li>
+      <li><strong>Intermediate</strong>, Raj English School, Varanasi (2020–2021)</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <h3>Smart India Hackathon (Oct 2024 – Dec 2024)</h3>
+    <br>
+    <p>During the Smart India Hackathon 2024, I was part of a team that worked on building a web portal to streamline operations and enhance user experience.</p>
+    <br>
+    <div id="ex">
+        <ul>
+        <li>I took the lead in designing the front-end of the portal using HTML, CSS, and JavaScript, ensuring a clean and intuitive interface.</li>
+        <li>I managed the database integration with SQL, enabling smooth storage and retrieval of user data.</li>
+        <li>Focused on responsive design principles, making sure the platform worked seamlessly across desktop and mobile devices.</li>
+        <li>Collaborated with teammates to implement features efficiently under tight deadlines, which helped us deliver a working prototype within the hackathon timeframe.</li>
+        </ul>
+    </div>
+    <br>
+    <p>This experience not only strengthened my technical expertise in full-stack development but also enhanced my teamwork, problem-solving, and time-management skills while working in a high-pressure, real-world problem-solving environment.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3><a href="https://github.com/Aman1gupta/WonderLust" >WanderLust</a></h3>
+        <p>Full-stack hotel management app using MERN. Features booking, property management, responsive UI, and optimized search.</p>
+      </div>
+      <div class="project-card">
+        <h3><a href="https://mentorsconnect-ad64e.web.app/" >Mentor’s Connect Platform</a></h3>
+        <p>Developed networking platform for students & mentors. Built with HTML, CSS, JS, PHP, Node.js, and WebRTC.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, Python, SQL, JavaScript, HTML, CSS</li>
+      <li><strong>Core CS:</strong> DSA, OS, OOP, Computer Networks</li>
+      <li><strong>Frameworks:</strong> React, Node.js, Express</li>
+      <li><strong>Databases:</strong> MongoDB, SQL</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, IntelliJ</li>
+    </ul>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests" class="section">
+    <h2>Interests</h2>
+    <p>Outside of academics and projects, I actively participate in hackathons and coding challenges to sharpen my problem-solving skills and learn new technologies under real-world constraints. I also enjoy reading tech articles and listening to developer podcasts to stay updated with industry trends. Beyond technology, I have a strong passion for cricket and team sports, which help me build leadership, collaboration, and strategic thinking skills.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:ag9451guptaaman@gmail.com">ag9451guptaaman@gmail.com</a></p>
+    <p>Phone: +91-9569833084</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Aman Gupta. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
